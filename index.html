@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Bootstrap CSS</title>
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2>2.2 Bootstrap CSS</h2>
+
+    <!-- Headings -->
+    <h3>Headings</h3>
+    <p>Headings được sử dụng để tạo tiêu đề cho các phần khác nhau của nội dung, giúp tổ chức và phân cấp thông tin.</p>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <hr> <!-- Đường gạch ngăn cách -->
+
+    <!-- Lớp Lead -->
+    <h3>Lớp Lead</h3>
+    <p>Lớp Lead được sử dụng để làm nổi bật một đoạn văn bản, thường là mô tả ngắn gọn về nội dung chính.</p>
+    <p class="lead">Đây là một đoạn văn bản lead, giúp thu hút sự chú ý của người đọc.</p>
+    <hr> <!-- Đường gạch ngăn cách -->
+
+    <!-- Lớp Emphasis -->
+    <h3>Lớp Emphasis</h3>
+    <p>Lớp Emphasis được sử dụng để làm nổi bật một phần văn bản, thường là thông tin quan trọng.</p>
+    <p>Đoạn văn này có <em>nội dung nhấn mạnh</em> và <strong>nội dung in đậm</strong>.</p>
+    <hr> <!-- Đường gạch ngăn cách -->
+
+    <!-- Danh sách -->
+    <h3>Danh sách</h3>
+    <p>Danh sách được sử dụng để trình bày thông tin theo dạng liệt kê, giúp người đọc dễ dàng theo dõi.</p>
+    <ul>
+        <li>Danh sách không thứ tự 1</li>
+        <li>Danh sách không thứ tự 2</li>
+        <li>Danh sách không thứ tự 3</li>
+    </ul>
+    <hr> <!-- Đường gạch ngăn cách -->
+
+    <!-- Lớp Code -->
+    <h3>Lớp Code</h3>
+    <p>Lớp Code được sử dụng để hiển thị mã nguồn hoặc đoạn văn bản kỹ thuật.</p>
+    <p>Ví dụ: <code>console.log('Hello, World!');</code></p>
+    <hr> <!-- Đường gạch ngăn cách -->
+
+    <!-- Lớp Tables -->
+    <h3>Lớp Tables</h3>
+    <p>Lớp Tables được sử dụng để tạo bảng, giúp tổ chức dữ liệu một cách rõ ràng.</p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Tiêu đề 1</th>
+                <th>Tiêu đề 2</th>
+                <th>Tiêu đề 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dữ liệu 1</td>
+                <td>Dữ liệu 2</td>
+                <td>Dữ liệu 3</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr> <!-- Đường gạch ngăn cách -->
+
+    <!-- Các dạng bảng -->
+    <h3>Các dạng bảng (Optional Table Classes)</h3>
+    <p>Các lớp tùy chọn cho bảng giúp cải thiện giao diện và trải nghiệm người dùng.</p>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Tiêu đề 1</th>
+                <th>Tiêu đề 2</th>
+                <th>Tiêu đề 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dữ liệu 1</td>
+                <td>Dữ liệu 2</td>
+                <td>Dữ liệu 3</td>
+            </tr>
+            <tr>
+                <td>Dữ liệu 4</td>
+                <td>Dữ liệu 5</td>
+                <td>Dữ liệu 6</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr> <!-- Đường gạch ngăn cách -->
+
+    <!-- Lớp Form -->
+    <h3>Lớp Form</h3>
+    <p>Lớp Form được sử dụng để tạo các biểu mẫu nhập liệu cho người dùng.</p>
+    <form>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <hr> <!-- Đường gạch ngăn cách -->
+
+    <!-- Nút (Buttons) -->
+    <h3>Nút (Buttons)</h3>
+    <p>Nút được sử dụng để thực hiện hành động khi người dùng nhấp vào.</p>
+    <button type="button" class="btn btn-primary">Primary Button</button>
+    <button type="button" class="btn btn-secondary" disabled>Disabled Button</button>
+    <hr> <!-- Đường gạch ngăn cách -->
+
+    <!-- Ảnh (Images) -->
+    <h3>Ảnh (Images)</h3>
+    <p>Ảnh được sử dụng để hiển thị hình ảnh trong nội dung.</p>
+    <img src="https://cdn.pixabay.com/photo/2024/01/02/14/58/leaf-8483401_640.jpg" alt="Description of the image" class="img-fluid">
+    <hr> <!-- Đường gạch ngăn cách -->
+
+    <!-- Biểu tượng Icons -->
+    <h3>Biểu tượng Icons</h3>
+    <p>Biểu tượng được sử dụng để thêm hình ảnh nhỏ hoặc biểu tượng vào nội dung, giúp tăng tính trực quan.</p>
+    <span class="bi bi-alarm"></span>
+    <hr> <!-- Đường gạch ngăn cách -->
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
